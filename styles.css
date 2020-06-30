@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    height: 75px;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    color: rgba(128, 128, 128, 0.9);
+    border: 4px solid rgba(128, 128, 128, 0.8);
+}
+
+.button:hover {
+    color: white;
+    background-color: grey;
+}
+
+.button:focus {
+    outline: none;
+}
